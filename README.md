@@ -1,9 +1,21 @@
-> I build **production-grade multi-agent systems**, **enterprise agent governance**, and **governed RAG** — not demos.
+<!-- Profile README for https://github.com/vpeetla-ai (Overview tab) -->
+
+# Hi, I'm Venkata Peetla — Principal AI Architect
+
+> I build **governed agent platforms** — orchestration, runtime governance, access-aware RAG, and AgentOps — with **10 live demos** you can inspect before we talk.
 
 [![Website](https://img.shields.io/badge/Website-venkat--ai.com-blue)](https://venkat-ai.com)
+[![Architecture Portfolio](https://img.shields.io/badge/Architecture_Portfolio-Case_Studies_%26_ADRs-5eead4)](https://github.com/vpeetla-ai/ai-architecture-portfolio)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2)](https://linkedin.com/in/venkata-peetla)
 [![Substack](https://img.shields.io/badge/Substack-Subscribe-orange)](https://venkatapeetla.substack.com)
-[![Medium](https://img.shields.io/badge/Medium-Articles-black)](https://medium.com/@vpeetla.ai)
+
+---
+
+## Architecture portfolio
+
+**[ai-architecture-portfolio](https://github.com/vpeetla-ai/ai-architecture-portfolio)** — case studies, ADRs, trade-offs, and stack map (Nic Chin–style architecture hub).
+
+→ [Featured case studies & decisions](https://github.com/vpeetla-ai/ai-architecture-portfolio#featured-case-studies) · [Live demos](https://venkat-ai.com/work)
 
 ---
 
@@ -33,7 +45,7 @@ Chief → parallel specialists → Critic → Slack / Telegram / WhatsApp · pai
 
 **Governed knowledge layer** — access-before-ranking, hybrid retrieval, AegisAI HITL bridge, Qdrant adapter, OTLP export.
 
-[▶ Live demo](https://enterprise-rag-platform.vercel.app)
+[▶ Live demo](https://demo-omega-taupe.vercel.app)
 
 ### [AegisLoop AgentOps Workbench](https://github.com/vpeetla-ai/aegisloop-agentops-workbench)
 
@@ -57,7 +69,7 @@ What do they produce?        →  AI Content Factory (governed publish pipeline)
 |-------|------------|-----------|
 | **Agent governance** | [aegisai-enterprise-agent-platform](https://github.com/vpeetla-ai/aegisai-enterprise-agent-platform) | [Control plane](https://aegisai-enterprise-agent-platform.vercel.app) |
 | **Multi-agent OS** | [venkat-ai-platform](https://github.com/vpeetla-ai/venkat-ai-platform) | [VAP console](https://venkat-ai-platform.vercel.app) |
-| **Knowledge** | [enterprise_rag_platform](https://github.com/vpeetla-ai/enterprise_rag_platform) | [RAG lab](https://enterprise-rag-platform.vercel.app) |
+| **Knowledge** | [enterprise_rag_platform](https://github.com/vpeetla-ai/enterprise_rag_platform) | [RAG lab](https://demo-omega-taupe.vercel.app) |
 | **AgentOps** | [aegisloop-agentops-workbench](https://github.com/vpeetla-ai/aegisloop-agentops-workbench) | [Mission console](https://aegisloop-agentops-workbench.vercel.app) |
 | **Content automation** | [ai-content-factory](https://github.com/vpeetla-ai/ai-content-factory) | [Content pipeline](https://ai-content-factory-iota.vercel.app) |
 
@@ -91,7 +103,7 @@ What do they produce?        →  AI Content Factory (governed publish pipeline)
 
 - **Substack** — [venkatapeetla.substack.com](https://venkatapeetla.substack.com) — architecture decisions for production AI
 - **Medium** — [@vpeetla.ai](https://medium.com/@vpeetla.ai) — agent patterns & RAG governance
-- **Essay** — [From Multi-Agent OS to Agent Governance](https://github.com/vpeetla-ai/ai-content-factory/blob/main/docs/content/from-multi-agent-os-to-agent-governance.md) (VAP + AegisAI story)
+- **Essay** — [From Multi-Agent OS to Agent Governance](https://github.com/vpeetla-ai/ai-architecture-portfolio/blob/main/case-studies/from-multi-agent-os-to-agent-governance.md) (VAP + AegisAI story)
 
 ---
 
