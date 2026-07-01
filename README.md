@@ -2,7 +2,7 @@
 
 # Hi, I'm Venkata Peetla — Principal AI Architect
 
-> I build **self-improving agent systems** — loop engineering, harness, MCP tools, RAG tuning, memory, and **repo fix → PR** — with **12 live demos** you can inspect before we talk.
+> I build **governed agent systems** — orchestration, gateway/HITL, enterprise RAG, loop engineering, eval contracts, and overnight autonomy — with **13 live demos** you can inspect before we talk.
 
 [![Website](https://img.shields.io/badge/Website-venkat--ai.com-blue)](https://venkat-ai.com)
 [![Architecture Portfolio](https://img.shields.io/badge/Architecture_Portfolio-Case_Studies_%26_ADRs-5eead4)](https://github.com/vpeetla-ai/ai-architecture-portfolio)
@@ -84,6 +84,12 @@ Validator · JSONL suites · CI · Evals-as-product proof
 
 [▶ Live mission console](https://aegisloop-agentops-workbench.vercel.app)
 
+### [Sentinel Brief](https://github.com/vpeetla-ai/sentinel-brief) · **LIVE**
+
+**Overnight AI radar** — HN, arXiv, VentureBeat, MIT Tech Review, The Batch, Paper Digest, Towards Data Science, and more → snapshot diff → eval gate → governed email.
+
+[▶ Live demo](https://sentinel-brief.vercel.app) · [API](https://sentinel-brief-api.onrender.com/health) · LangGraph · Resend · eval gate · cron
+
 ---
 
 ## How the stack fits together
@@ -97,6 +103,7 @@ What do they produce?        →  AI Content Factory (governed publish pipeline)
 How do agents improve?       →  LoopForge (harness · LangGraph · repo fix → PR)
 How do we serve LLMs?        →  vLLM Architecture Lab (PagedAttention · batching · KV budget)
 How do we prove quality?      →  Golden Eval Registry (versioned eval contracts)
+How do we scan overnight AI signal? → Sentinel Brief (daily governed intelligence brief)
 ```
 
 | Layer | Repository | Live demo |
@@ -109,6 +116,7 @@ How do we prove quality?      →  Golden Eval Registry (versioned eval contract
 | **Content automation** | [ai-content-factory](https://github.com/vpeetla-ai/ai-content-factory) | [Content pipeline](https://ai-content-factory-iota.vercel.app) |
 | **LLM inference** | [vllm-architecture-lab](https://github.com/vpeetla-ai/vllm-architecture-lab) | [Architecture lab](https://vllm-architecture-lab.vercel.app) · [API](https://vllm-architecture-lab-api.onrender.com) |
 | **Eval contracts** | [golden-eval-registry](https://github.com/vpeetla-ai/golden-eval-registry) | Versioned golden eval fixtures |
+| **Overnight intelligence** | [sentinel-brief](https://github.com/vpeetla-ai/sentinel-brief) | [Brief UI](https://sentinel-brief.vercel.app) · [API](https://sentinel-brief-api.onrender.com) |
 
 ### Production Agent Patterns (series)
 
@@ -132,7 +140,8 @@ How do we prove quality?      →  Golden Eval Registry (versioned eval contract
 - [x] **vLLM Architecture Lab** — PagedAttention simulator live on Vercel + Render
 - [x] **vpeetla-ai-skills** — org-wide agent skills (Cursor + Codex)
 - [x] **Golden Eval Registry** — cross-repo regression contracts
-- [x] Live demos on Vercel for VAP, AegisLoop, Enterprise RAG, LoopForge, vLLM Lab, and all 5 agent pattern repos
+- [x] **Sentinel Brief** — governed overnight AI intelligence reporter live on Render + Vercel
+- [x] Live demos on Vercel for VAP, AegisLoop, Enterprise RAG, LoopForge, vLLM Lab, Sentinel Brief, and all 5 agent pattern repos
 
 ---
 
