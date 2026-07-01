@@ -66,6 +66,12 @@ Chief → parallel specialists → Critic → Slack / Telegram / WhatsApp · pai
 
 [▶ Live demo](https://enterprise-rag-platform.vercel.app)
 
+### [Golden Eval Registry](https://github.com/vpeetla-ai/golden-eval-registry)
+
+**Cross-repo regression contracts** — versioned golden fixtures for RAG answers, LoopForge benchmarks, repo-fix, mission gates, and Content Factory HITL.
+
+Validator · JSONL suites · CI · Evals-as-product proof
+
 ### [vLLM Architecture Lab](https://github.com/vpeetla-ai/vllm-architecture-lab) · **LIVE**
 
 **PagedAttention · Continuous Batching · KV Cache** — interactive 5-tab architecture explorer + Python engine simulator (scheduler, block allocator, memory budget API).
@@ -90,6 +96,7 @@ How do we operate them?    →  AegisLoop (missions, traces, eval gates)
 What do they produce?        →  AI Content Factory (governed publish pipeline)
 How do agents improve?       →  LoopForge (harness · LangGraph · repo fix → PR)
 How do we serve LLMs?        →  vLLM Architecture Lab (PagedAttention · batching · KV budget)
+How do we prove quality?      →  Golden Eval Registry (versioned eval contracts)
 ```
 
 | Layer | Repository | Live demo |
@@ -101,6 +108,7 @@ How do we serve LLMs?        →  vLLM Architecture Lab (PagedAttention · batch
 | **AgentOps** | [aegisloop-agentops-workbench](https://github.com/vpeetla-ai/aegisloop-agentops-workbench) | [Mission console](https://aegisloop-agentops-workbench.vercel.app) |
 | **Content automation** | [ai-content-factory](https://github.com/vpeetla-ai/ai-content-factory) | [Content pipeline](https://ai-content-factory-iota.vercel.app) |
 | **LLM inference** | [vllm-architecture-lab](https://github.com/vpeetla-ai/vllm-architecture-lab) | [Architecture lab](https://vllm-architecture-lab.vercel.app) · [API](https://vllm-architecture-lab-api.onrender.com) |
+| **Eval contracts** | [golden-eval-registry](https://github.com/vpeetla-ai/golden-eval-registry) | Versioned golden eval fixtures |
 
 ### Production Agent Patterns (series)
 
@@ -123,6 +131,7 @@ How do we serve LLMs?        →  vLLM Architecture Lab (PagedAttention · batch
 - [x] AegisLoop — FinOps, Langfuse, VAP delegation, gateway ship path
 - [x] **vLLM Architecture Lab** — PagedAttention simulator live on Vercel + Render
 - [x] **vpeetla-ai-skills** — org-wide agent skills (Cursor + Codex)
+- [x] **Golden Eval Registry** — cross-repo regression contracts
 - [x] Live demos on Vercel for VAP, AegisLoop, Enterprise RAG, LoopForge, vLLM Lab, and all 5 agent pattern repos
 
 ---
