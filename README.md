@@ -2,7 +2,7 @@
 
 # Hi, I'm Venkata Peetla — Principal AI Architect
 
-> I build **self-improving agent systems** — loop engineering, harness, MCP tools, RAG tuning, memory, and **repo fix → PR** — with **11 live demos** you can inspect before we talk.
+> I build **self-improving agent systems** — loop engineering, harness, MCP tools, RAG tuning, memory, and **repo fix → PR** — with **12 live demos** you can inspect before we talk.
 
 [![Website](https://img.shields.io/badge/Website-venkat--ai.com-blue)](https://venkat-ai.com)
 [![Architecture Portfolio](https://img.shields.io/badge/Architecture_Portfolio-Case_Studies_%26_ADRs-5eead4)](https://github.com/vpeetla-ai/ai-architecture-portfolio)
@@ -28,7 +28,7 @@ git clone https://github.com/vpeetla-ai/vpeetla-ai-skills.git
 ./vpeetla-ai-skills/scripts/install.sh --cursor --codex --project .
 ```
 
-Inspired by [mattpocock/skills](https://github.com/mattpocock/skills) + [Karpathy agentic engineering](https://www.youtube.com/watch?v=96jN2OCOfLs).
+Inspired by [mattpocock/skills](https://github.com/mattpocock/skills) + [Karpathy agentic engineering](https://www.youtube.com/watch?v=96jN2OCOfLs) + [autoresearch](https://github.com/karpathy/autoresearch).
 
 ---
 
