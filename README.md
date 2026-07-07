@@ -51,7 +51,7 @@ Inspired by [mattpocock/skills](https://github.com/mattpocock/skills) + [Karpath
 
 **ASR → LLM → TTS** — browser speech + edge-tts + pluggable triage (mock / Ollama / DomainForge), latency waterfall UI, WebSocket phases, graceful degradation.
 
-[▶ Live demo](https://voiceforge-assistant.vercel.app) · [API](https://voiceforge-api.onrender.com/health) · [ADR-021](https://github.com/vpeetla-ai/ai-architecture-portfolio/blob/main/adr/ADR-021-voiceforge-multimodal-pipeline.md) · FastAPI · edge-tts · Next.js
+[▶ Live demo](https://voiceforge-assistant.vercel.app) · [API](https://voiceforge-api-eysb.onrender.com/health) · [ADR-021](https://github.com/vpeetla-ai/ai-architecture-portfolio/blob/main/adr/ADR-021-voiceforge-multimodal-pipeline.md) · FastAPI · edge-tts · Next.js
 
 ### [DomainForge — Enterprise RAG + PEFT Pipeline](https://github.com/vpeetla-ai/domainforge-rag-peft) · **LIVE**
 
@@ -136,7 +136,7 @@ Overnight signal?            →  Sentinel Brief
 | Layer | Repository | Live demo |
 |-------|------------|-----------|
 | **Knowledge + MLOps** | [domainforge-rag-peft](https://github.com/vpeetla-ai/domainforge-rag-peft) | [DomainForge UI](https://domainforge-rag-peft.vercel.app) · [API](https://domainforge-api.onrender.com) |
-| **Voice / Multimodal** | [voiceforge-assistant](https://github.com/vpeetla-ai/voiceforge-assistant) | [VoiceForge UI](https://voiceforge-assistant.vercel.app) · [API](https://voiceforge-api.onrender.com) |
+| **Voice / Multimodal** | [voiceforge-assistant](https://github.com/vpeetla-ai/voiceforge-assistant) | [VoiceForge UI](https://voiceforge-assistant.vercel.app) · [API](https://voiceforge-api-eysb.onrender.com) |
 | **Self-improvement** | [loop-engine-agent-platform](https://github.com/vpeetla-ai/loop-engine-agent-platform) | [LoopForge UI](https://demo-omega-taupe.vercel.app) · [API](https://loopforge-api.onrender.com) |
 | **Agent governance** | [aegisai-enterprise-agent-platform](https://github.com/vpeetla-ai/aegisai-enterprise-agent-platform) | [Control plane](https://aegisai-enterprise-agent-platform.vercel.app) |
 | **Multi-agent OS** | [venkat-ai-platform](https://github.com/vpeetla-ai/venkat-ai-platform) | [VAP console](https://venkat-ai-platform.vercel.app) |
