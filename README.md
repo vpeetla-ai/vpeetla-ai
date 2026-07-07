@@ -3,7 +3,7 @@
 
 # Hi, I'm Venkata Peetla — Principal AI Architect
 
-> **15 live products** (10 production platforms + 5 pattern products) · **21 open-source repos** · **19 ADRs** — inspect before we talk.
+> **16 live products** (11 production platforms + 5 pattern products) · **22 open-source repos** · **20 ADRs** — inspect before we talk.
 
 [![Website](https://img.shields.io/badge/Website-venkat--ai.com-blue)](https://venkat-ai.com)
 [![Technical review](https://img.shields.io/badge/5--Min_Technical_Review-Start_here-5eead4)](https://venkat-ai.com/technical-review)
@@ -26,7 +26,7 @@
 
 ## Architecture portfolio
 
-**[ai-architecture-portfolio](https://github.com/vpeetla-ai/ai-architecture-portfolio)** — 19 ADRs, case studies, trade-offs, and stack map.
+**[ai-architecture-portfolio](https://github.com/vpeetla-ai/ai-architecture-portfolio)** — 20 ADRs, case studies, trade-offs, and stack map.
 
 → [Featured case studies](https://github.com/vpeetla-ai/ai-architecture-portfolio#featured-case-studies) · [golden-eval-registry](https://github.com/vpeetla-ai/golden-eval-registry) (CI regression gates)
 
@@ -47,9 +47,15 @@ Inspired by [mattpocock/skills](https://github.com/mattpocock/skills) + [Karpath
 
 ## Top projects
 
+### [VoiceForge — Real-Time Voice Triage](https://github.com/vpeetla-ai/voiceforge-assistant) · **LIVE**
+
+**ASR → LLM → TTS** — browser speech + edge-tts + pluggable triage (mock / Ollama / DomainForge), latency waterfall UI, WebSocket phases, graceful degradation.
+
+[▶ Live demo](https://voiceforge-assistant.vercel.app) · [API](https://voiceforge-api.onrender.com/health) · [ADR-021](https://github.com/vpeetla-ai/ai-architecture-portfolio/blob/main/adr/ADR-021-voiceforge-multimodal-pipeline.md) · FastAPI · edge-tts · Next.js
+
 ### [DomainForge — Enterprise RAG + PEFT Pipeline](https://github.com/vpeetla-ai/domainforge-rag-peft) · **LIVE**
 
-**Fine-tune behavior, retrieve facts** — QLoRA for strict JSON triage + hybrid RAG over capstone SOP corpus, with S0→S3 eval harness and adapter promotion gates.
+**Fine-tune behavior, retrieve facts** — QLoRA for strict JSON triage + hybrid RAG over capstone SOP corpus, with S0→S4 eval harness (incl. DPO) and adapter promotion gates.
 
 [▶ Live demo](https://domainforge-rag-peft.vercel.app) · [API](https://domainforge-api.onrender.com/health) · [ADR-019](https://github.com/vpeetla-ai/ai-architecture-portfolio/blob/main/adr/ADR-019-rag-facts-peft-behavior.md) · Chroma · TRL · PEFT · Bitext SFT
 
@@ -118,6 +124,7 @@ What should agents do?       →  Venkat AI Platform (orchestration)
 What are agents allowed?     →  AegisAI (gateway, policy, HITL, audit)
 What knowledge can they use? →  Enterprise RAG (access-before-ranking)
 How do we adapt domain format? → DomainForge (RAG facts + PEFT behavior)
+How do we run voice triage?     → VoiceForge (ASR → LLM → TTS + latency budgets)
 How do we operate fleets?    →  AegisLoop (missions, traces, eval gates)
 What do they produce?        →  AI Content Factory (governed publish)
 How do agents improve?       →  LoopForge (harness · repo fix → PR)
@@ -129,6 +136,7 @@ Overnight signal?            →  Sentinel Brief
 | Layer | Repository | Live demo |
 |-------|------------|-----------|
 | **Knowledge + MLOps** | [domainforge-rag-peft](https://github.com/vpeetla-ai/domainforge-rag-peft) | [DomainForge UI](https://domainforge-rag-peft.vercel.app) · [API](https://domainforge-api.onrender.com) |
+| **Voice / Multimodal** | [voiceforge-assistant](https://github.com/vpeetla-ai/voiceforge-assistant) | [VoiceForge UI](https://voiceforge-assistant.vercel.app) · [API](https://voiceforge-api.onrender.com) |
 | **Self-improvement** | [loop-engine-agent-platform](https://github.com/vpeetla-ai/loop-engine-agent-platform) | [LoopForge UI](https://demo-omega-taupe.vercel.app) · [API](https://loopforge-api.onrender.com) |
 | **Agent governance** | [aegisai-enterprise-agent-platform](https://github.com/vpeetla-ai/aegisai-enterprise-agent-platform) | [Control plane](https://aegisai-enterprise-agent-platform.vercel.app) |
 | **Multi-agent OS** | [venkat-ai-platform](https://github.com/vpeetla-ai/venkat-ai-platform) | [VAP console](https://venkat-ai-platform.vercel.app) |
@@ -151,10 +159,11 @@ Overnight signal?            →  Sentinel Brief
 
 ---
 
-## Production platforms (10)
+## Production platforms (11)
 
 | Platform | Live URL |
 |----------|----------|
+| **VoiceForge** — real-time voice triage | [voiceforge-assistant.vercel.app](https://voiceforge-assistant.vercel.app) |
 | **DomainForge** — RAG + PEFT triage | [domainforge-rag-peft.vercel.app](https://domainforge-rag-peft.vercel.app) |
 | **AegisAI** — agent governance | [aegisai-enterprise-agent-platform.vercel.app](https://aegisai-enterprise-agent-platform.vercel.app) |
 | **Venkat AI Platform** — multi-agent OS | [venkat-ai-platform.vercel.app](https://venkat-ai-platform.vercel.app) |
