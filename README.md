@@ -3,7 +3,7 @@
 
 # Hi, I'm Venkata Peetla — Principal AI Architect
 
-> **16 live products** (11 production platforms + 5 pattern products) · **22 open-source repos** · **24 ADRs** — inspect before we talk.
+> **16 live products** (11 production platforms + 5 curriculum pattern products) · **22 open-source repos** · **25 ADRs** — inspect before we talk.
 
 [![Website](https://img.shields.io/badge/Website-venkat--ai.com-blue)](https://venkat-ai.com)
 [![Technical review](https://img.shields.io/badge/5--Min_Technical_Review-Start_here-5eead4)](https://venkat-ai.com/technical-review)
@@ -157,7 +157,9 @@ Overnight signal?            →  Sentinel Brief
 | **Eval contracts** | [golden-eval-registry](https://github.com/vpeetla-ai/golden-eval-registry) | Versioned golden eval fixtures |
 | **Overnight intelligence** | [sentinel-brief](https://github.com/vpeetla-ai/sentinel-brief) | [Brief UI](https://sentinel-brief-ruddy.vercel.app) · [API](https://sentinel-brief-api.onrender.com) |
 
-### Production Agent Patterns (series)
+### Curriculum Agent Patterns (series — teaching stubs)
+
+Deterministic stub loops + live trace viewers for interviews and skill-building. **Not** production fleets — compose into VAP / Content Factory for governed graphs. Status tables mark LangGraph production graph 🟡, gateway ❌.
 
 | # | Pattern | Repository | Live demo |
 |---|---------|------------|-----------|
