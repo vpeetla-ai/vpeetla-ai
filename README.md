@@ -3,7 +3,7 @@
 
 # Hi, I'm Venkata Peetla — Principal AI Architect
 
-> **16 live products** (11 production platforms + 5 curriculum pattern products) · **22 open-source repos** · **25 ADRs** — inspect before we talk.
+> **16 live products** (11 production platforms + 5 curriculum pattern products) · **22 open-source repos** · **26 ADRs** — inspect before we talk.
 
 [![Website](https://img.shields.io/badge/Website-venkat--ai.com-blue)](https://venkat-ai.com)
 [![Technical review](https://img.shields.io/badge/5--Min_Technical_Review-Start_here-5eead4)](https://venkat-ai.com/technical-review)
