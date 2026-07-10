@@ -1,5 +1,5 @@
 <!-- Profile README for https://github.com/vpeetla-ai (Overview tab) -->
-<!-- Sync from: ai-content-factory/docs/github-profile/README.md -->
+<!-- Canonical: vpeetla-ai/README.md — keep ACF docs/github-profile in sync -->
 
 # Hi, I'm Venkata Peetla — Principal AI Architect
 
@@ -27,17 +27,17 @@
 
 ## Architecture portfolio
 
-**[ai-architecture-portfolio](https://github.com/vpeetla-ai/ai-architecture-portfolio)** — 20+ ADRs, case studies, trade-offs, and stack map.
+**[ai-architecture-portfolio](https://github.com/vpeetla-ai/ai-architecture-portfolio)** — **26 ADRs**, case studies, trade-offs, and stack map (incl. `PRODUCTION_STRICT`, NIST AI RMF, multi-tenant isolation).
 
-→ [Featured case studies](https://github.com/vpeetla-ai/ai-architecture-portfolio#featured-case-studies) · [LinkedIn launch plan](https://github.com/vpeetla-ai/ai-architecture-portfolio/blob/main/docs/LINKEDIN_LAUNCH_PLAN.md) · [golden-eval-registry](https://github.com/vpeetla-ai/golden-eval-registry) (CI regression gates)
+→ [Featured case studies](https://github.com/vpeetla-ai/ai-architecture-portfolio#featured-case-studies) · [LinkedIn launch plan](https://github.com/vpeetla-ai/ai-architecture-portfolio/blob/main/docs/LINKEDIN_LAUNCH_PLAN.md) · [golden-eval-registry](https://github.com/vpeetla-ai/golden-eval-registry) (CI regression gates) · [Top-1% 90-day backlog](https://github.com/vpeetla-ai/ai-architecture-portfolio/blob/main/docs/TOP1PCT_90DAY_BACKLOG.md)
 
 ### RAG + inference track (flagship quartet)
 
 | Repo | Hook |
 |------|------|
-| [Enterprise RAG](https://github.com/vpeetla-ai/enterprise_rag_platform) | Access-before-ranking · cross-encoder rerank · decline-to-answer |
-| [DomainForge](https://github.com/vpeetla-ai/domainforge-rag-peft) | RAG facts + PEFT behavior · S0→S4 eval · Ollama bench |
-| [vLLM Lab](https://github.com/vpeetla-ai/vllm-architecture-lab) | PagedAttention · multi-LoRA train→serve economics |
+| [Enterprise RAG](https://github.com/vpeetla-ai/enterprise_rag_platform) | Access-before-ranking · cross-encoder rerank · decline-to-answer · JWT Principal under `PRODUCTION_STRICT` |
+| [DomainForge](https://github.com/vpeetla-ai/domainforge-rag-peft) | RAG facts + PEFT behavior · S0→S4 eval · educational vLLM Path B (ADR-022) |
+| [vLLM Lab](https://github.com/vpeetla-ai/vllm-architecture-lab) | PagedAttention · continuous batching · educational multi-LoRA chat `/v1/adapters` |
 | [VoiceForge](https://github.com/vpeetla-ai/voiceforge-assistant) | ASR → LLM → TTS · P50/P95 latency budgets |
 
 ---
@@ -136,9 +136,10 @@ What knowledge can they use? →  Enterprise RAG (access-before-ranking)
 How do we adapt domain format? → DomainForge (RAG facts + PEFT behavior)
 How do we run voice triage?     → VoiceForge (ASR → LLM → TTS + latency budgets)
 How do we operate fleets?    →  AegisLoop (missions, traces, eval gates)
+What did agents cost?        →  Agent FinOps (metering + budgets)
 What do they produce?        →  AI Content Factory (governed publish)
 How do agents improve?       →  LoopForge (harness · repo fix → PR)
-How do we serve LLMs?        →  vLLM Architecture Lab
+How do we serve LLMs?        →  vLLM Architecture Lab (educational multi-LoRA Path B)
 How do we prove quality?     →  Golden Eval Registry (versioned eval contracts)
 Overnight signal?            →  Sentinel Brief
 ```
@@ -152,6 +153,7 @@ Overnight signal?            →  Sentinel Brief
 | **Multi-agent OS** | [venkat-ai-platform](https://github.com/vpeetla-ai/venkat-ai-platform) | [VAP console](https://venkat-ai-platform.vercel.app) |
 | **Knowledge** | [enterprise_rag_platform](https://github.com/vpeetla-ai/enterprise_rag_platform) | [RAG lab](https://enterprise-rag-platform-eta.vercel.app) |
 | **AgentOps** | [aegisloop-agentops-workbench](https://github.com/vpeetla-ai/aegisloop-agentops-workbench) | [Mission console](https://aegisloop-agentops-workbench.vercel.app) |
+| **FinOps** | [agent-finops](https://github.com/vpeetla-ai/agent-finops) | [FinOps UI](https://agent-finops.vercel.app) · [API](https://agent-finops-api.onrender.com) |
 | **Content automation** | [ai-content-factory](https://github.com/vpeetla-ai/ai-content-factory) | [Content pipeline](https://ai-content-factory-iota.vercel.app) |
 | **LLM inference** | [vllm-architecture-lab](https://github.com/vpeetla-ai/vllm-architecture-lab) | [Architecture lab](https://vllm-architecture-lab.vercel.app) · [API](https://vllm-architecture-lab-api.onrender.com) |
 | **Eval contracts** | [golden-eval-registry](https://github.com/vpeetla-ai/golden-eval-registry) | Versioned golden eval fixtures |
