@@ -25,6 +25,16 @@ This org builds **governed agent systems**, not chat demos:
 - README: badges → problem → 60s diagram → **honest status table** → quick start
 - Deploy: Vercel (UI) + Render (API); see `render.yaml`
 
+## Book writing (Enterprise AI Architecture Handbook)
+
+Repo: [enterprise-ai-architecture-handbook](https://github.com/vpeetla-ai/enterprise-ai-architecture-handbook) — the manuscript, proposal, diagrams, and research for Venkata's book. Not a code repo; treat it as an editorial project.
+
+- Voice: natural and human — like a principal architect telling a colleague what actually happened, not a compliance document. No robotic, form-letter prose.
+- Every chapter follows `STYLE_GUIDE.md`'s 15-section structure for *coverage*, but the order and headers are a checklist, not a script — open with a real failure story, a specific system, a judgment call, not a restated section title.
+- Draft one chapter at a time. Follow `CANONICAL_TOC.md` (36 chapters, 7 parts) — don't reduce or renumber without a documented editorial decision (`proposal/editorial-decisions.md`).
+- Flagship samples first, per `proposal/writing-roadmap.md`: Ch. 4 (Control Plane) → Ch. 7 (Agent Runtime) → Ch. 18 (Evaluation).
+- Keep terminology aligned with `GLOSSARY.md`; record sources in `research/source-notes/` and `research/bibliography/references.bib`.
+
 ## Skills repo
 
 Install org skills from [vpeetla-ai-skills](https://github.com/vpeetla-ai/vpeetla-ai-skills):
