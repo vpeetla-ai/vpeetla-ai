@@ -3,6 +3,8 @@
 
 # Hi, I'm Venkata Peetla — Principal AI Architect
 
+I build **governed agent platforms** — orchestration and governance as separate layers, access-before-ranking RAG, side effects behind gates. One brand, not a catalog tour.
+
 > **5-spine review path** (govern · orchestrate · RAG · publish · ADRs) · full catalog behind it · **29 ADRs** — inspect before we talk.
 
 [![Website](https://img.shields.io/badge/Website-venkat--ai.com-blue)](https://venkat-ai.com)
@@ -27,7 +29,7 @@
 
 ## Public spine (D1 — review these five)
 
-Narrative hub + four live platforms. Everything else is labs, proof services, or teaching stubs.
+Start here. Narrative hub + four live platforms. Everything else is labs, proof services, or teaching stubs — not the first screen.
 
 | # | Layer | Repo | Live |
 |---|-------|------|------|
@@ -59,13 +61,13 @@ Inspired by [mattpocock/skills](https://github.com/mattpocock/skills) + [Karpath
 
 ### [AegisAI — Enterprise Agent Governance](https://github.com/vpeetla-ai/aegisai-enterprise-agent-platform)
 
-**Monitor → Govern → Remediate** — AI Gateway for tool authorization: policy, HITL, signed audit, registry lifecycle, FinOps.
+I'd put an independent gateway in front of irreversible tools — policy, HITL on the scary ones, signed audit. The agent graph doesn't get a back door.
 
 [▶ Live control plane](https://aegisai-enterprise-agent-platform.vercel.app) · Gateway SDK · OPA · FastAPI · Next.js
 
 ### [Venkat AI Platform (VAP)](https://github.com/vpeetla-ai/venkat-ai-platform)
 
-**Principal-architect multi-agent OS** — LangGraph orchestrators, RAG strategies (incl. Enterprise RAG adapter), loop patterns, gateway-wrapped notify.
+What agents should do — LangGraph orchestrators, RAG strategies, gateway-wrapped notify. Orchestration stays separate from governance on purpose.
 
 Chief → parallel specialists → Critic → Slack / Telegram / WhatsApp · pairs with AegisAI
 
@@ -73,19 +75,19 @@ Chief → parallel specialists → Critic → Slack / Telegram / WhatsApp · pai
 
 ### [Enterprise RAG Platform](https://github.com/vpeetla-ai/enterprise_rag_platform)
 
-**Governed knowledge layer** — access-before-ranking, hybrid retrieval, cross-encoder rerank, decline-to-answer, AegisAI HITL bridge. Prefer Strict/JWT Principal path for panels.
+Filter by who the caller is *before* you rank. Hybrid retrieval, decline-to-answer, AegisAI HITL bridge. Prefer Strict/JWT for panels.
 
 [▶ Live demo](https://enterprise-rag-platform-eta.vercel.app)
 
 ### [AI Content Factory](https://github.com/vpeetla-ai/ai-content-factory)
 
-**Multi-agent content pipeline** — Research → platform drafts → HITL → Publish. End-user workflow that proves side effects stay behind gates.
+Research → drafts → HITL → publish. The end-user workflow that proves side effects stay behind gates — publish fails closed when Strict.
 
 [▶ Live demo](https://ai-content-factory-iota.vercel.app) · LangGraph · Clerk · Render + Vercel
 
 ### [Architecture portfolio — ADRs](https://github.com/vpeetla-ai/ai-architecture-portfolio)
 
-**29 ADRs**, case studies, trade-offs, stack map (incl. `PRODUCTION_STRICT`, NIST AI RMF, multi-tenant isolation).
+**29 ADRs** — what I decided, what I refused, and live proof (`PRODUCTION_STRICT`, NIST AI RMF, multi-tenant isolation).
 
 → [Featured case studies](https://github.com/vpeetla-ai/ai-architecture-portfolio#featured-case-studies) · [Top-1% execution plan](https://github.com/vpeetla-ai/ai-architecture-portfolio/blob/main/docs/TOP1PCT_90DAY_EXECUTION.md)
 
@@ -107,7 +109,7 @@ What did agents cost?        →  Agent FinOps (proof, not hero)
 
 ## Labs & secondary platforms (full catalog)
 
-Not on the Principal 15-minute path. Available for deeper review.
+Not on the Principal 15-minute path. Open these after the spine holds.
 
 | Repo | Hook |
 |------|------|
