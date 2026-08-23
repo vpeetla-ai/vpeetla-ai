@@ -73,7 +73,7 @@ git clone https://github.com/vpeetla-ai/vpeetla-ai-skills.git
 
 ### [AegisAI — Enterprise Agent Governance](https://github.com/vpeetla-ai/aegisai-enterprise-agent-platform)
 
-**Monitor → Govern → Remediate** — AI Gateway for tool authorization: policy, HITL, signed audit, registry lifecycle, FinOps.
+I'd put an independent gateway in front of irreversible tools — policy, HITL on the scary ones, signed audit. The agent graph doesn't get a back door.
 
 [▶ Live control plane](https://aegisai-enterprise-agent-platform.vercel.app)
 
