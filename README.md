@@ -36,7 +36,7 @@ Narrative hub + **agent plane** + **model plane**. Labs stay labs — ModelForge
 | 2 | **Governance** | [aegisai-enterprise-agent-platform](https://github.com/vpeetla-ai/aegisai-enterprise-agent-platform) | [Control plane](https://aegisai-enterprise-agent-platform.vercel.app) |
 | 3 | **Orchestration** | [venkat-ai-platform](https://github.com/vpeetla-ai/venkat-ai-platform) | [VAP console](https://venkat-ai-platform.vercel.app) |
 | 4 | **Knowledge** | [enterprise_rag_platform](https://github.com/vpeetla-ai/enterprise_rag_platform) | [RAG lab](https://enterprise-rag-platform-eta.vercel.app) |
-| 5 | **Models** | [modelforge-llmops](https://github.com/vpeetla-ai/modelforge-llmops) | Model Plane API + UI (receipts Phases 2–4) |
+| 5 | **Models** | [modelforge-llmops](https://github.com/vpeetla-ai/modelforge-llmops) | [ModelForge live](https://modelforge-gamma.vercel.app) |
 | 6 | **Application** | [ai-content-factory](https://github.com/vpeetla-ai/ai-content-factory) | [Content pipeline](https://ai-content-factory-iota.vercel.app) |
 
 **Proof (linked, not hero):** [golden-eval-registry](https://github.com/vpeetla-ai/golden-eval-registry) · [agent-finops](https://github.com/vpeetla-ai/agent-finops)  
@@ -93,7 +93,7 @@ I'd put an independent gateway in front of irreversible tools — policy, HITL o
 
 **SLM · PEFT · CUDA vLLM · LLMOps** — hire hero for the model plane. Composes DomainForge training, upstream vLLM serve receipts, SLM bake-off, and aegis-llm-gateway.
 
-Repo · [ADR-034](https://github.com/vpeetla-ai/ai-architecture-portfolio/blob/main/adr/ADR-034-modelforge-model-plane.md) · [100% plan](https://github.com/vpeetla-ai/ai-architecture-portfolio/blob/main/docs/MODEL_PLANE_100_PLAN.md)
+[▶ Live ModelForge](https://modelforge-gamma.vercel.app) · [ADR-034](https://github.com/vpeetla-ai/ai-architecture-portfolio/blob/main/adr/ADR-034-modelforge-model-plane.md) · [100% plan](https://github.com/vpeetla-ai/ai-architecture-portfolio/blob/main/docs/MODEL_PLANE_100_PLAN.md)
 
 ### [AI Content Factory](https://github.com/vpeetla-ai/ai-content-factory)
 
