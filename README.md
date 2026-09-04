@@ -5,7 +5,7 @@
 
 I'd own the seams, embed until the wedge runs, and keep the model plane honest.
 
-Same scar, three altitudes: **Principal** (control plane) · **FDE / Applied** (discovery → handoff) · **Staff LLMOps** (weights, evals, serve). Public repos are inspectable proof — not a claim Lucid ran these binaries. Apple/Google work was via Sparity.
+Same scar, three altitudes: **Principal** (control plane) · **FDE / Applied** (discovery → handoff) · **Staff LLMOps** (weights, evals, serve). Public repos are personal work you can inspect. Apple/Google work was via Sparity.
 
 > **6-spine review** (govern · orchestrate · RAG · **models** · publish · ADRs) · catalog stays behind it.
 
@@ -76,7 +76,7 @@ git clone https://github.com/vpeetla-ai/vpeetla-ai-skills.git
 
 ### [AegisAI — Enterprise Agent Governance](https://github.com/vpeetla-ai/aegisai-enterprise-agent-platform)
 
-I'd put an independent gateway in front of irreversible tools — policy, HITL on the scary ones, signed audit. The agent graph doesn't get a back door. This repo is the pattern. It is not Lucid's production binary.
+I'd put an independent gateway in front of irreversible tools — policy, HITL on the scary ones, signed audit. The agent graph doesn't get a back door. This repo is personal work — a public reference you can inspect.
 
 [▶ Live control plane](https://aegisai-enterprise-agent-platform.vercel.app)
 
