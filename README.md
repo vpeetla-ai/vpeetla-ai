@@ -3,7 +3,7 @@
 
 # Hi, I'm Venkata Peetla — Principal AI Architect
 
-> **6-spine review path** (govern · orchestrate · RAG · **models** · publish · ADRs) · full catalog behind it · **34 ADRs** — inspect before we talk.
+> **6-spine review path** (govern · orchestrate · RAG · **models** · publish · ADRs) · full catalog behind it · **37 ADRs** — inspect before we talk.
 
 [![Website](https://img.shields.io/badge/Website-venkat--ai.com-blue)](https://venkat-ai.com)
 [![Technical review](https://img.shields.io/badge/15--Min_Technical_Review-Start_here-5eead4)](https://venkat-ai.com/technical-review)
@@ -103,7 +103,7 @@ I'd put an independent gateway in front of irreversible tools — policy, HITL o
 
 ### [Architecture portfolio — ADRs](https://github.com/vpeetla-ai/ai-architecture-portfolio)
 
-**34 ADRs**, case studies, Model Plane 100% tracker.
+**37 ADRs**, case studies, Model Plane 100% tracker.
 
 ---
 
@@ -114,6 +114,8 @@ I'd put an independent gateway in front of irreversible tools — policy, HITL o
 | [DomainForge](https://github.com/vpeetla-ai/domainforge-rag-peft) | RAG facts + QLoRA/DPO behavior (ADR-019/020) |
 | [vLLM Architecture Lab](https://github.com/vpeetla-ai/vllm-architecture-lab) | Educational paging/batching (not CUDA prod) |
 | [aegis-llm-gateway](https://github.com/vpeetla-ai/aegis-llm-gateway) | Apps select · plane enforces+records |
+| [aegis-routing-contract](https://github.com/vpeetla-ai/aegis-routing-contract) | Shared role-aware routing contract the gateway enforces (ADR-029) |
+| [aegis-semantic-cache](https://github.com/vpeetla-ai/aegis-semantic-cache) | Tenant-isolated semantic cache for the gateway plane (ADR-028) |
 
 ---
 
