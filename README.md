@@ -3,16 +3,13 @@
 
 # Hi, I'm Venkata Peetla — Principal AI Architect
 
-I'd own the seams, embed until the wedge runs, and keep the model plane honest.
+**Principal AI Architect at [SNH AI](https://www.snh-ai.com/)** (Sep 2026–). I architect digital employees that own a regulated role — verification, public-records research, adjudication — inside the systems a screener already runs. A trace on every action. A person on the exception.
 
-Same scar, three altitudes: **Principal** (control plane) · **FDE / Applied** (discovery → handoff) · **Staff LLMOps** (weights, evals, serve). Public repos are personal work you can inspect. Apple/Google work was via Sparity.
-
-> **6-spine review** (govern · orchestrate · RAG · **models** · publish · ADRs) · catalog stays behind it.
+> **6-spine review path** below is inspectable reference architecture (govern · orchestrate · RAG · **models** · publish · ADRs) · **37 ADRs** — personal work, not SNH or Lucid production code.
 
 [![Website](https://img.shields.io/badge/Website-venkat--ai.com-blue)](https://venkat-ai.com)
 [![Technical review](https://img.shields.io/badge/15--Min_Technical_Review-Start_here-5eead4)](https://venkat-ai.com/technical-review)
-[![Hire](https://img.shields.io/badge/Hire-Three_seats-111827)](https://venkat-ai.com/hire)
-[![90-day plan](https://img.shields.io/badge/Three--track_90--day-Plan-6b7280)](https://github.com/vpeetla-ai/ai-architecture-portfolio/blob/main/docs/THREE_TRACK_90DAY.md)
+[![Current role](https://img.shields.io/badge/Principal_AI_Architect-SNH_AI-111827)](https://venkat-ai.com/hire)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2)](https://linkedin.com/in/venkata-peetla)
 [![Substack](https://img.shields.io/badge/Substack-Subscribe-orange)](https://venkatapeetla.substack.com)
 
@@ -22,10 +19,12 @@ Same scar, three altitudes: **Principal** (control plane) · **FDE / Applied** (
 
 | For | Link |
 |-----|------|
-| **Engineering panels (~15 min)** | [venkat-ai.com/technical-review](https://venkat-ai.com/technical-review) |
-| **Hire overview** | [venkat-ai.com/hire](https://venkat-ai.com/hire) |
+| **Technical review (~15 min)** | [venkat-ai.com/technical-review](https://venkat-ai.com/technical-review) |
+| **Current role** | [venkat-ai.com/hire](https://venkat-ai.com/hire) |
+| **Leadership** | [venkat-ai.com/leadership](https://venkat-ai.com/leadership) |
 | **FDE field method** | [venkat-ai.com/fde](https://venkat-ai.com/fde) |
-| **90-day plan** | [THREE_TRACK_90DAY](https://github.com/vpeetla-ai/ai-architecture-portfolio/blob/main/docs/THREE_TRACK_90DAY.md) |
+| **Full portfolio catalog** | [venkat-ai.com/work](https://venkat-ai.com/work) |
+| **Model Plane plan** | [MODEL_PLANE_100_PLAN](https://github.com/vpeetla-ai/ai-architecture-portfolio/blob/main/docs/MODEL_PLANE_100_PLAN.md) |
 | **Flagship essay** | [From Multi-Agent OS to Agent Governance](https://github.com/vpeetla-ai/ai-architecture-portfolio/blob/main/case-studies/from-multi-agent-os-to-agent-governance.md) |
 
 ---
@@ -139,5 +138,3 @@ Pattern stubs (ReAct · Reflection · Plan-Execute · Multi-Agent · Swarm) stay
 - [venkat-ai.com](https://venkat-ai.com)
 - [LinkedIn](https://linkedin.com/in/venkata-peetla)
 - [Substack](https://venkatapeetla.substack.com)
-
-*Three seats, one scar — see [THREE_TRACK_90DAY.md](https://github.com/vpeetla-ai/ai-architecture-portfolio/blob/main/docs/THREE_TRACK_90DAY.md).*
