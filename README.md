@@ -3,7 +3,9 @@
 
 # Hi, I'm Venkata Peetla — Principal AI Architect
 
-> **6-spine review path** (govern · orchestrate · RAG · **models** · publish · ADRs) · full catalog behind it · **34 ADRs** — inspect before we talk.
+**Principal AI Architect at [SNH AI](https://www.snh-ai.com/)** (Sep 2026–). I architect digital employees that own a regulated role — verification, public-records research, adjudication — inside the systems a screener already runs. A trace on every action. A person on the exception.
+
+> **6-spine review path** below is inspectable reference architecture (govern · orchestrate · RAG · **models** · publish · ADRs) · **34 ADRs**. It is not an SNH or Lucid production binary.
 
 [![Website](https://img.shields.io/badge/Website-venkat--ai.com-blue)](https://venkat-ai.com)
 [![Technical review](https://img.shields.io/badge/15--Min_Technical_Review-Start_here-5eead4)](https://venkat-ai.com/technical-review)
